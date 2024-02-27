@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CollegeNameTxtV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K.R.T. Arts, B.H. Commerce and A.M. Science College"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/btn_red"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="RED"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/CollegeNameTxtV"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_yellow"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="YELLOW"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/CollegeNameTxtV"
+        android:layout_toRightOf="@+id/btn_red"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"/>
+
+
+    <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="BLUE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_red"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <Button
+        android:id="@+id/btn_green"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="GREEN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_yellow"
+        android:layout_toRightOf="@+id/btn_blue"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"/>
+
+</RelativeLayout>
